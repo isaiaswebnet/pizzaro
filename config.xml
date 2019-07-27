@@ -4,7 +4,8 @@
     <description>Fast Food Restaurant Apps for Android</description>
     <author email="contato@skynetsites.com.br" href="https://skynetsites.com.br">Isaías Oliveira</author>
     <content src="index.html" />
-    <engine name="android" spec="7.0.0" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
@@ -39,7 +40,7 @@
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
-    <access origin="*" />
+   <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -49,14 +50,4 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <preference name="phonegap-version" value="cli-8.1.1" />
-    <preference name="AppName" value="Pizzaro" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
-    <preference name="UIWebViewBounce" value="false" />
-    <preference name="Orientation" value="portrait" />
-    <preference name="target-device" value="iphone" />
-    <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
 </widget>
