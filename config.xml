@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="br.com.skynetsites.pizzaro" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Pizzaro</name>
-    <description>Fast Food | Restaurant APP</description>
+    <description>Fast Food & Restaurant APP</description>
     <author email="contato@skynetsites.com.br" href="https://skynetsites.com.br">Isaías Oliveira</author>
     <content src="index.html" />
     <engine name="android" spec="~7.0.0" />
